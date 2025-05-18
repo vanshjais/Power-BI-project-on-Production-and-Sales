@@ -43,28 +43,44 @@ as Postal Code, and "customer_country" as Country/Region
 
 ### 🔸 Part 3: DAX Measures & Calculated Columns
 - In the DATA view, added the following calculated columns: 
-• In the Calendar table, add a column named "Weekend" 
-• Equals "Y" for Saturdays or Sundays (otherwise "N") 
+• In the Calendar table, add a column named "Weekend"
+ 
+• Equals "Y" for Saturdays or Sundays (otherwise "N")
+
 • In the Calendar table, add a column named "End of Month" 
+
 • Returns the last date of the current month for each row 
+
 • In the Customers table, add a column named "Current Age" 
-• Calculates current customer ages using the "birthdate" column and the TODAY() 
+
+• Calculated current customer ages using the "birthdate" column and the TODAY() 
 function 
+
 • In the Customers table, add a column named "Priority" 
+
 • Equals "High" for customers who own homes and have Golden membership cards 
-(otherwise "Standard")    
+(otherwise "Standard") 
+
 • In the Customers table, add a column named "Short_Country" 
-• Returns the first three characters of the customer country, and converts 
-to all uppercase  
+
+• Returned the first three characters of the customer country, and converts 
+to all uppercase
+
 • In the Customers table, add a column named "House Number" 
-• Extracts all characters/numbers before the first space in the "customer_address" 
+
+• Extracted all characters/numbers before the first space in the "customer_address" 
 column (hint: use SEARCH) 
+
 • In the Products table, add a column named "Price_Tier" 
+
 • Equals "High" if the retail price is >$3, "Mid" if the retail price is >$1, and "Low" 
-otherwise 
+otherwise
+
 • In the Stores table, add a column named "Years_Since_Remodel" 
-• Calculates the number of years between the current date (TODAY()) and the last 
+
+• Calculated the number of years between the current date (TODAY()) and the last 
 remodel date
+
 -In the Report View Created measures for:
 1. "Quantity Sold" and "Quantity Returned" to calculate the sum 
 of quantity from each data table 
