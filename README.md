@@ -10,6 +10,7 @@ This project analyzes customer transactions, returns, and product performance us
 ## ✅ Key Components
 
 ### 🔸 Part 1: Connecting & Shaping the Data
+
 - Imported 7 CSV files and combined transactions from two years
 - Performed column transformations and calculated fields using Power Query
 - Cleaned and formatted data, replaced nulls, and created meaningful fields like `full_name`, `birth_year`, `discount_price`, `area_code`
